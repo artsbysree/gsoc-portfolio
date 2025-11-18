@@ -4,7 +4,8 @@ This folder contains all my Python practice projects created as part of my GSoC 
 
 ---
 
-## 📌 Projects Included
+## 🛠️ Projects Included
+
 
 ### 1. Hello World
 A basic Python program to test environment setup.
@@ -15,15 +16,15 @@ A simple calculator using input/output and basic operations.
 ### 3. Motivation Generator
 Prints a random motivational quote each time it runs.
 
-### 4. To-Do App 📝
-A command-line to-do manager built using:
-- Functions
-- Lists
-- Loops
-- User input handling
+### 📝 To-Do App  
+A simple command-line To-Do application using Python.  
+Features: add tasks, view tasks, delete tasks, clear tasks, and save tasks to a file.
 
-Run it using:
+Run the project:
+
+```bash
 python todo.py
+
 
 ---
 

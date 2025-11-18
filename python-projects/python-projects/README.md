@@ -16,7 +16,8 @@ A simple calculator using input/output and basic operations.
 ### 3. Motivation Generator
 Prints a random motivational quote each time it runs.
 
-### 📝 To-Do App  
+ ### 📄 4. To-Do App
+
 A simple command-line To-Do application using Python.  
 Features: add tasks, view tasks, delete tasks, clear tasks, and save tasks to a file.
 

@@ -31,6 +31,11 @@ def delete_task():
     except (ValueError, IndexError):
         print("Invalid choice.")
 
+def remaining_tasks():
+    return len(tasks)
+print("Remaining tasks:", remaining_tasks())
+
+
 while True:
     show_menu()
     choice = input("Choose an option (1-4): ")

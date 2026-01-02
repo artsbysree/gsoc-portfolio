@@ -1,1 +1,41 @@
 web-projects/style.css
+
+/* Reset default browser styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Page background */
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+  color: white;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Hero section */
+.hero {
+  text-align: center;
+  padding: 40px;
+  border-radius: 12px;
+  background: rgba(255, 255, 255, 0.1);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+}
+
+/* Name */
+.hero h1 {
+  font-size: 3rem;
+  margin-bottom: 15px;
+}
+
+/* Subtitle */
+.hero p {
+  font-size: 1.2rem;
+  opacity: 0.9;
+}
+

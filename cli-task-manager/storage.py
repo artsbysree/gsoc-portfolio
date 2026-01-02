@@ -1,5 +1,14 @@
+import json
+
+FILE_NAME = "tasks.json"
+
 def load_tasks():
-    return []
+    try:
+        with open(FILE_NAME, "r") as file:
+            return json.load(file)
+    except FileNotFoundError:
+        return []
 
 def save_tasks(tasks):
-    pass
+    with open(FILE_NAME, "w") as file:
+        json.dump(tasks, file, indent=2)

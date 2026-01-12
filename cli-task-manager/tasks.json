@@ -1,1 +1,14 @@
-[]
+[
+    {
+        "description": "Buy groceries",
+        "completed": true
+    },
+    {
+        "description": "Python series",
+        "completed": true
+    },
+    {
+        "description": "buy pens",
+        "completed": false
+    }
+]
